@@ -1,6 +1,8 @@
 * {
   margin: 0;
   padding: 0;
+}
+body {
   background: #080048;
 }
 h1 {
@@ -10,7 +12,7 @@ h1 {
 }
 h2 {
   font-size: 2em;
-  font-weight: 400;
+  font-weight: 800;
   color: #ffffff;
 }
 h3 {
@@ -26,12 +28,35 @@ b {
   font-size: 16px;
   color: #ffffff;
 }
-/* .my-nav {
-  background: linear-gradient(180deg, #080048, #0c0062);
+.section-background {
+  background: #22174b;
+  padding: 40px;
 }
+.playground {
+  background-color: #22174b;
+  width: 70%;
+  border-radius: 20px;
+  padding-top: 50px;
+}
+/*
 .top {
   background: linear-gradient(180deg, #080048, #0c0062);
 } */
+.top-img {
+  position: relative;
+  z-index: 1;
+}
+
+.image-index-down {
+  z-index: 2;
+}
+.image-index-up {
+  z-index: 3;
+}
+
+.card-image {
+  width: 280px;
+}
 .name-highlight {
   color: #fa8c4c;
 }
