@@ -38,6 +38,13 @@ b {
   border-radius: 20px;
   padding-top: 50px;
 }
+.video-courses {
+  background-color: #22174b;
+  width: 70%;
+  border-radius: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
 /*
 .top {
   background: linear-gradient(180deg, #080048, #0c0062);
