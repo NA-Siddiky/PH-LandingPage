@@ -45,12 +45,19 @@ b {
   padding-left: 50px;
   padding-right: 50px;
 }
+.purchase-container {
+  background-color: #22174b;
+  width: 70%;
+  border-radius: 20px;
+  padding-top: 50px;
+}
 .social-container {
   background-color: #22174b;
   width: 70%;
   border-radius: 20px;
   padding: 40px;
 }
+
 /*
 .top {
   background: linear-gradient(180deg, #080048, #0c0062);
