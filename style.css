@@ -16,7 +16,7 @@ h2 {
   color: #ffffff;
 }
 h3 {
-  font-size: 1em;
+  font-size: 1.5em;
   font-weight: 300;
   color: #ffffff;
 }
@@ -30,7 +30,7 @@ b {
 }
 section {
   margin-top: 7rem;
-  margin-bottom: 10rem;
+  margin-bottom: 8rem;
 }
 .section-background {
   background: #22174b;
