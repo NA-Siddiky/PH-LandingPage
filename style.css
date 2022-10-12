@@ -96,7 +96,8 @@ section {
 }
 .nav-container {
   max-width: 100%;
-  margin: 0 auto;
+  margin-top: 0;
+  padding-top: 0;
   padding-left: 7em;
 }
 /* .product{
@@ -121,56 +122,3 @@ section {
   padding: 10px;
   color: black;
 }
-
-.photo-frame {
-  width: 96%;
-  height: 450px;
-  background-color: #f1f1f1;
-  border-radius: 25px;
-  position: relative;
-  margin: 10px;
-  overflow: hidden;
-}
-.photo img {
-  width: 100%;
-  height: 100%;
-}
-.last-frame {
-  width: 50%;
-  margin: 0 auto;
-  overflow: hidden;
-}
-.last img {
-  width: 100%;
-}
-/* .lower-section{
-  background-color: yellow;
-} */
-.last-container {
-  /* border: 1px solid black; */
-  margin: 0 auto;
-  max-width: 90%;
-}
-.last-left {
-  width: 5em;
-  margin-left: 2em;
-  margin-right: 2em;
-}
-.last-unit {
-  margin: 2em;
-}
-/* .last-section{
-  padding: 100px;
-} */
-.my-banner-backgroung {
-  background: linear-gradient(180deg, white, #e5e5e5);
-}
-.footer-container {
-  max-width: 100%;
-  margin: 0 auto;
-  padding: 20px;
-  background-color: #fffbf0;
-}
-/* .test-border{
-  border: 3px solid black;
-} */
