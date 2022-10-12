@@ -22,46 +22,50 @@
     <title>Programming Hero</title>
   </head>
   <body>
-    <main class="container-fluid">
+    <main>
       <section style="margin-top: 0" class="pt-4">
-        <nav class="navbar navbar-expand-lg navbar-light my-nav container">
-          <div class="container-fluid top">
-            <a
-              class="navbar-brand col col-lg-8 nav-container d-flex align-items-center"
-              href=""
-              ><img width="40px" src="Asset/images/logo.png" alt="" />
-              <h3 class="mx-3">Programming Hero</h3>
-            </a>
+        <nav class="container navbar navbar-expand-lg navbar-dark">
+          <div class="container-fluid">
             <button
               class="navbar-toggler"
               type="button"
               data-bs-toggle="collapse"
-              data-bs-target="#navbarNavAltMarkup"
-              aria-controls="navbarNavAltMarkup"
+              data-bs-target="#navbarTogglerDemo01"
+              aria-controls="navbarTogglerDemo01"
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div
-              style="font-size: 20px"
-              class="collapse navbar-collapse"
-              id="navbarNavAltMarkup"
-            >
-              <div class="navbar-nav container d-flex justify-content-around">
-                <a class="nav-link" href="#home"> <b>Home</b></a>
-                <a class="nav-link" href="#blog"><b>Blog</b></a>
-                <a class="nav-link" href="#contact"><b>Contact us</b></a>
-                <a class="my-button btn" href="">login</a>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+              <div class="d-flex align-items-center">
+                <img class="img-fluid" src="./Asset/images/logo.png" alt="" />
+                <a class="ps-3 navbar-brand" href="#"
+                  ><h3>Programming-hero</h3></a
+                >
               </div>
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#"
+                    ><p>Home</p></a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><p>Blog</p></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><p>Contact Us</p></a>
+                </li>
+              </ul>
+              <a class="my-button btn py-1" href="#" role="button"> Login</a>
             </div>
           </div>
         </nav>
-        <header>
+        <header class="container">
           <section
-            class="container row my-container d-flex justify-content-around align-items-center"
+            class="container row d-flex justify-content-around align-items-center"
           >
-            <div class="container-fluid col-xl-8 col-lg-8 col-md-6 col-sm-6">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-12">
               <h1>
                 Programming<br />
                 <span class="name-highlight">Just Got Fun</span>
@@ -79,7 +83,7 @@
                 Download App</a
               >
               <a
-                class="my-button2 mx-3 btn fab fa-apple"
+                class="my-button2 mx-lg-3 btn fab fa-apple"
                 href="#"
                 role="button"
               >
@@ -87,61 +91,58 @@
               >
             </div>
             <div
-              class="col-xl-4 col-lg-4 col-md-6 col-sm-6 d-flex justify-content-center align-items-center position-relative"
+              class="col-xl-6 col-lg-6 col-md-6 d-flex justify-content-center align-items-center my-3"
+              ;
             >
-              <img
-                class="position-absolute"
-                width="400rem"
-                src="Asset/images/mobile.png"
-                alt="Loadding..."
-              />
-              <img
-                width="700rem"
-                src="Asset/images/MobileBAckground.png"
-                alt="Loadding..."
-              />
+              <div class="top-banner">
+                <img
+                  class="img-fluid w-75"
+                  src="Asset/images/mobile.png"
+                  alt="Loadding..."
+                />
+              </div>
             </div>
           </section>
         </header>
       </section>
 
-      <section
-        class="container row my-container d-flex justify-content-around align-items-center"
-      >
-        <div class="container-fluid col-xl-8 col-lg-8 col-md-6 col-sm-6">
-          <img
-            width="600em"
-            src="Asset/images/Group 75831.png"
-            alt="Loadding..."
-            class="image-index-down"
-          />
-        </div>
-        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
-          <h2>
-            Best Android App to <br />
-            <span class="name-highlight">Learn Programming</span>
-          </h2>
-          <br />
-          <p>
-            Download the App that has reached more than one million happy souls
-            all over the world and see learning in a completely different way!
-            What are you waiting for download now!
+      <section class="container">
+        <div
+          class="container row d-flex justify-content-around align-items-center"
+        >
+          <div class="col-12 col-lg-8 mobile-img">
+            <img
+              src="Asset/images/Group 75831.png"
+              alt="Loadding..."
+              class="img-fluid"
+            />
+          </div>
+          <div class="col col-12 col-lg-4">
+            <h2>
+              Best Android App to <br />
+              <span class="name-highlight">Learn Programming</span>
+            </h2>
             <br />
-            <br />
-            Download the App that has reached more than one million happy souls
-            all over the world and see learning in a completely different way!
-            What are you waiting for download now!
-          </p>
+            <p>
+              Download the App that has reached more than one million happy
+              souls all over the world and see learning in a completely
+              different way! What are you waiting for download now!
+              <br />
+              <br />
+              Download the App that has reached more than one million happy
+              souls all over the world and see learning in a completely
+              different way! What are you waiting for download now!
+            </p>
+          </div>
         </div>
       </section>
-
       <section class="my-5">
         <div class="position-relative my-5">
           <div class="text-center">
             <h1>Our Premium Courses</h1>
           </div>
           <div
-            class="position-absolute top-0 end-0 translate-middle"
+            class="position-absolute top-0 end-0 translate-middle d-none d-md-block"
             style="z-index: 1"
           >
             <img src="Asset/images/moon.png" alt="" />
@@ -260,15 +261,17 @@
       <section>
         <div class="my-5 container d-flex justify-content-center">
           <div class="row playground">
-            <div class="col col-6 d-flex justify-content-end">
+            <div
+              class="col col-12 col-lg-6 d-flex justify-content-center justify-content-lg-end"
+            >
               <img
                 class=""
-                width="400em"
+                width="100%"
                 src="Asset/images/mobile-half.png"
                 alt="Loadding..."
               />
             </div>
-            <div class="col col-6 my-5">
+            <div class="col col-12 col-lg-6 my-5">
               <div class="">
                 <h1 class="name-highlight">Code Playground</h1>
                 <p>
@@ -284,20 +287,22 @@
                   coding
                 </p>
 
-                <a
-                  class="my-button btn fab fa-google-play"
-                  href="#"
-                  role="button"
-                >
-                  Download App</a
-                >
-                <a
-                  class="my-button2 ms-3 btn fab fa-apple"
-                  href="#"
-                  role="button"
-                >
-                  Download App</a
-                >
+                <div class="d-flex flex-column flex-md-row">
+                  <a
+                    class="my-button btn m-1 fab fa-google-play"
+                    href="#"
+                    role="button"
+                  >
+                    Download App</a
+                  >
+                  <a
+                    class="my-button2 m-1 btn fab fa-apple"
+                    href="#"
+                    role="button"
+                  >
+                    Download App</a
+                  >
+                </div>
               </div>
             </div>
           </div>
@@ -315,22 +320,30 @@
         </div>
 
         <div class="row d-flex align-items-center">
-          <div class="col col-6 d-flex justify-content-end">
+          <div
+            class="col col-12 col-lg-6 d-flex justify-content-lg-end justify-content-center"
+          >
             <div class="d-flex flex-column">
-              <div class="my-4 d-flex justify-content-end">
+              <div
+                class="my-4 d-flex justify-content-center justify-content-lg-end"
+              >
                 <img class="w-75" src="./Asset/images/Customer.png" alt="" />
               </div>
-              <div class="my-3 d-flex justify-content-end">
+              <div
+                class="my-3 d-flex justify-content-center justify-content-lg-end"
+              >
                 <img class="w-75" src="./Asset/images/Customer.png" alt="" />
               </div>
-              <div class="my-4 d-flex justify-content-end">
+              <div
+                class="my-4 d-flex justify-content-center justify-content-lg-end"
+              >
                 <img class="w-75" src="./Asset/images/Customer.png" alt="" />
               </div>
             </div>
           </div>
-          <div class="col col-6 d-flex justify-content-start">
-            <div>
-              <img width="70%" src="./Asset/images/LiveChat.png" alt="" />
+          <div class="col col-12 col-lg-6">
+            <div class="d-flex justify-content-center justify-content-lg-start">
+              <img width="60%" src="./Asset/images/LiveChat.png" alt="" />
             </div>
           </div>
         </div>
@@ -350,7 +363,7 @@
 
         <div class="my-5 container d-flex justify-content-center">
           <div class="row video-courses d-flex align-items-center">
-            <div class="col col-6 d-flex justify-content-end">
+            <div class="col-12 col-lg-6 d-flex justify-content-end">
               <div class="">
                 <h2 class="">
                   Ultimate guideline to <br />
@@ -369,10 +382,9 @@
                 </a>
               </div>
             </div>
-            <div class="col col-6 my-5 d-flex justify-content-center">
+            <div class="col-12 col-lg-6 my-5 d-flex justify-content-center">
               <img
-                class=""
-                width="300em"
+                class="img-fluid"
                 src="Asset/images/videoCourse.png"
                 alt="Loadding..."
               />
@@ -382,18 +394,62 @@
       </section>
 
       <section>
-        <div class="text-center my-5">
-          <h1>Earned Badges</h1>
-          <p>
-            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-            sint.
-          </p>
-          <p>
-            Velit officia consequat duis enim velit mollit. Exercitation veniam.
-          </p>
+        <div
+          class="planet-background d-flex flex-column justify-content-between"
+        >
+          <!-- <img
+            class="img-fluid w-100"
+            src="./Asset/BackgroundImage/PlanetBG.png"
+            alt=""
+          /> -->
+
+          <div class="text-center my-5">
+            <h1>Earned Badges</h1>
+            <p>
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint.
+            </p>
+            <p>
+              Velit officia consequat duis enim velit mollit. Exercitation
+              veniam.
+            </p>
+          </div>
+
+          <div
+            class="d-flex container flex-column flex-sm-row justify-content-around social-container my-5"
+          >
+            <div class="d-flex flex-column p-2">
+              <h1>700K</h1>
+              <div class="d-flex align-items-start">
+                <img src="./Asset/logos/Youtube.png" alt="" />
+                <p class="ps-2">Youtube Subscription</p>
+              </div>
+            </div>
+            <div class="d-flex flex-column p-2">
+              <h1>2.4M</h1>
+              <div class="d-flex align-items-start">
+                <img src="./Asset/logos/Instagram.png" alt="" />
+                <p class="ps-2">Instagram Followers</p>
+              </div>
+            </div>
+            <div class="d-flex flex-column p-2">
+              <h1>1.5M</h1>
+              <div class="d-flex align-items-start">
+                <img src="./Asset/logos/Dribbble.png" alt="" />
+                <p class="ps-2">Playstore Download</p>
+              </div>
+            </div>
+            <div class="d-flex flex-column p-2">
+              <h1>100K</h1>
+              <div class="d-flex align-items-start">
+                <img src="./Asset/logos/Dribbble copy.png" alt="" />
+                <p class="ps-2">Facebook Followers</p>
+              </div>
+            </div>
+          </div>
         </div>
 
-        <div class="container w-75 my-5">
+        <!-- <div class="container w-75 my-5">
           <div class="row">
             <div class="col col-12 col-lg-3 mb-5">
               <img src="./Asset/images/Badges/Group 116140.png" alt="" />
@@ -419,10 +475,10 @@
               />
             </div>
           </div>
-        </div>
+        </div> -->
       </section>
 
-      <section>
+      <!-- <section>
         <div
           class="d-flex container justify-content-around social-container my-5"
         >
@@ -455,7 +511,7 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
       <section>
         <div class="text-center my-5">
@@ -547,7 +603,7 @@
       <section>
         <div class="container purchase-container my-5">
           <div class="row">
-            <div class="col col-3 ps-0">
+            <div class="col-12 col-lg-3 order-3 order-md-1 ps-0">
               <img
                 class="rounded-start rounded-3"
                 src="./Asset/images/rocket-icon.png"
@@ -555,7 +611,7 @@
               />
             </div>
             <div
-              class="col col-6 d-flex flex-column justify-content-center pb-5"
+              class="col-12 col-lg-6 order-1 order-md-2 d-flex flex-column justify-content-center pb-5"
             >
               <h2>Purchase Inquiry</h2>
               <p>
@@ -564,7 +620,7 @@
               </p>
             </div>
             <div
-              class="col col-3 d-flex justify-content-center align-items-center pb-5"
+              class="col-12 col-lg-3 order-2 order-md-3 d-flex justify-content-center align-items-center pb-5"
             >
               <a class="my-button btn" href="#" role="button"> SUPPORT</a>
             </div>

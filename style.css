@@ -38,7 +38,7 @@ section {
 }
 .playground {
   background-color: #22174b;
-  width: 70%;
+  width: 80%;
   border-radius: 20px;
   padding-top: 50px;
 }
@@ -62,20 +62,26 @@ section {
   padding: 40px;
 }
 
-/*
-.top {
-  background: linear-gradient(180deg, #080048, #0c0062);
-} */
-.top-img {
-  position: relative;
-  z-index: 1;
+.top-banner {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 80%;
+  text-align: center;
+  background-image: url("./Asset/images/MobileBG.png");
+}
+.planet-background {
+  height: 1700px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("./Asset/BackgroundImage/PlanetBG.png");
 }
 
-.image-index-down {
-  z-index: 2;
-}
-.image-index-up {
-  z-index: 3;
+.rocket-background {
+  height: 1700px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("./Asset/BackgroundImage/PlanetBG.png");
 }
 
 .card-image {
@@ -84,26 +90,7 @@ section {
 .name-highlight {
   color: #fa8c4c;
 }
-.container {
-  max-width: 100%;
-}
-.my-container {
-  max-width: 100%;
-  margin: 0 auto;
-  padding-left: 10em;
-  padding-right: 25em;
-  margin-top: 70px;
-}
-.nav-container {
-  max-width: 100%;
-  margin-top: 0;
-  padding-top: 0;
-  padding-left: 7em;
-}
-/* .product{
-  border: 1px solid red;
 
-} */
 .product-container {
   max-width: 90%;
   margin: 5em;
@@ -121,4 +108,55 @@ section {
   font-size: 15px;
   padding: 10px;
   color: black;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: olive;
+  }
+  h1 {
+    font-size: 2em;
+    font-weight: 300;
+    color: #ffffff;
+  }
+  h2 {
+    font-size: 1.5em;
+    font-weight: 400;
+    color: #ffffff;
+  }
+  h3 {
+    font-size: 1em;
+    font-weight: 200;
+    color: #ffffff;
+  }
+  p {
+    font-size: 9px;
+    color: #ffffff;
+  }
+  b {
+    font-size: 11px;
+    color: #ffffff;
+  }
+  section {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+  }
+  div {
+    border: 1px solid red;
+  }
+
+  .planet-background {
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("./Asset/BackgroundImage/PlanetBG.png");
+  }
+  .video-courses {
+    padding-top: 10%;
+    background-color: #22174b;
+    width: 100%;
+    border-radius: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
 }
