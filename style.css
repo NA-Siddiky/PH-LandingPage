@@ -111,9 +111,12 @@ section {
 }
 
 @media screen and (max-width: 600px) {
-  body {
+  /* body {
     background-color: olive;
   }
+  div {
+    border: 1px solid red;
+  } */
   h1 {
     font-size: 2em;
     font-weight: 300;
@@ -140,9 +143,6 @@ section {
   section {
     margin-top: 2rem;
     margin-bottom: 3rem;
-  }
-  div {
-    border: 1px solid red;
   }
 
   .planet-background {
