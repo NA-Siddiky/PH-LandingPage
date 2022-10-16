@@ -56,8 +56,12 @@
                 <li class="nav-item">
                   <a class="nav-link" href="#"><p>Contact Us</p></a>
                 </li>
+                <li class="nav-item ps-1 mt-2">
+                  <a class="my-button btn py-1" href="#" role="button">
+                    Login</a
+                  >
+                </li>
               </ul>
-              <a class="my-button btn py-1" href="#" role="button"> Login</a>
             </div>
           </div>
         </nav>
@@ -136,124 +140,123 @@
           </div>
         </div>
       </section>
-      <section class="my-5">
+
+      <section>
         <div class="position-relative my-5">
           <div class="text-center">
             <h1>Our Premium Courses</h1>
           </div>
           <div
-            class="position-absolute top-0 end-0 translate-middle d-none d-md-block"
+            class="position-absolute top-0 end-0 pb-5 translate-middle d-none d-md-block"
             style="z-index: 1"
           >
             <img src="Asset/images/moon.png" alt="" />
           </div>
         </div>
-
-        <div class="section-background my-5">
-          <div
-            id="carouselExampleControlsNoTouching"
-            class="carousel slide"
-            data-bs-touch="false"
-            data-bs-interval="false"
-          >
-            <div class="carousel-inner my-3">
-              <div class="carousel-item d-flex justify-content-around">
-                <img
-                  src="Asset/images/Card/C1.png"
-                  class="d-block card-image"
-                  alt="..."
-                />
-
-                <img
-                  src="Asset/images/Card/C2.png"
-                  class="d-block card-image"
-                  alt="..."
-                />
-
-                <img
-                  src="Asset/images/Card/C2.png"
-                  class="d-block card-image"
-                  alt="..."
-                />
-                <img
-                  src="Asset/images/Card/C1.png"
-                  class="d-block card-image"
-                  alt="..."
-                />
+        <div class="section-background text-center my-4">
+          <div class="row mx-auto my-auto justify-content-center">
+            <div
+              id="recipeCarousel"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active carousel-item-premium-courses">
+                  <div class="col-md-3">
+                    <div class="card">
+                      <div class="card-img">
+                        <img
+                          src="./Asset/images/Card/C1.png"
+                          class="img-fluid"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item carousel-item-premium-courses">
+                  <div class="col-md-3">
+                    <div class="card">
+                      <div class="card-img">
+                        <img
+                          src="./Asset/images/Card/C2.png"
+                          class="img-fluid"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item carousel-item-premium-courses">
+                  <div class="col-md-3">
+                    <div class="card">
+                      <div class="card-img">
+                        <img
+                          src="./Asset/images/Card/C3.png"
+                          class="img-fluid"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item carousel-item-premium-courses">
+                  <div class="col-md-3">
+                    <div class="card">
+                      <div class="card-img">
+                        <img
+                          src="./Asset/images/Card/C4.png"
+                          class="img-fluid"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item carousel-item-premium-courses">
+                  <div class="col-md-3">
+                    <div class="card">
+                      <div class="card-img">
+                        <img
+                          src="./Asset/images/Card/C1.png"
+                          class="img-fluid"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item carousel-item-premium-courses">
+                  <div class="col-md-3">
+                    <div class="card">
+                      <div class="card-img">
+                        <img
+                          src="./Asset/images/Card/C2.png"
+                          class="img-fluid"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div class="carousel-item d-flex justify-content-around">
-                <img
-                  src="Asset/images/Card/C1.png"
-                  class="d-block card-image"
-                  alt="..."
-                />
-
-                <img
-                  src="Asset/images/Card/C2.png"
-                  class="d-block card-image"
-                  alt="..."
-                />
-
-                <img
-                  src="Asset/images/Card/C3.png"
-                  class="d-block card-image"
-                  alt="..."
-                />
-                <img
-                  src="Asset/images/Card/C4.png"
-                  class="d-block card-image"
-                  alt="..."
-                />
-              </div>
-              <div class="carousel-item d-flex justify-content-around">
-                <img
-                  src="Asset/images/Card/C4.png"
-                  class="d-block card-image"
-                  alt="..."
-                />
-
-                <img
-                  src="Asset/images/Card/C3.png"
-                  class="d-block card-image"
-                  alt="..."
-                />
-
-                <img
-                  src="Asset/images/Card/C3.png"
-                  class="d-block card-image"
-                  alt="..."
-                />
-                <img
-                  src="Asset/images/Card/C4.png"
-                  class="d-block card-image"
-                  alt="..."
-                />
-              </div>
+              <a
+                class="carousel-control-prev bg-transparent w-aut"
+                href="#recipeCarousel"
+                role="button"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+              </a>
+              <a
+                class="carousel-control-next bg-transparent w-aut"
+                href="#recipeCarousel"
+                role="button"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+              </a>
             </div>
-            <button
-              class="carousel-control-prev"
-              type="button"
-              data-bs-target="#carouselExampleControlsNoTouching"
-              data-bs-slide="prev"
-            >
-              <span
-                class="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button
-              class="carousel-control-next"
-              type="button"
-              data-bs-target="#carouselExampleControlsNoTouching"
-              data-bs-slide="next"
-            >
-              <span
-                class="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Next</span>
-            </button>
           </div>
         </div>
       </section>
@@ -448,70 +451,7 @@
             </div>
           </div>
         </div>
-
-        <!-- <div class="container w-75 my-5">
-          <div class="row">
-            <div class="col col-12 col-lg-3 mb-5">
-              <img src="./Asset/images/Badges/Group 116140.png" alt="" />
-            </div>
-            <div class="col col-12 col-lg-3 mt-5">
-              <img
-                width="50%"
-                src="./Asset/images/Badges/Group 116153.png"
-                alt=""
-              />
-            </div>
-            <div class="col col-12 col-lg-3 mt-5 pt-5">
-              <img src="./Asset/images/Badges/Group 116154.png" alt="" />
-            </div>
-            <div
-              class="col col-12 col-lg-3 d-flex justify-content-end sm-justify-content-center mb-5"
-            >
-              <img
-                width="40%"
-                height="35%"
-                src="./Asset/images/Badges/Group 116155.png"
-                alt=""
-              />
-            </div>
-          </div>
-        </div> -->
       </section>
-
-      <!-- <section>
-        <div
-          class="d-flex container justify-content-around social-container my-5"
-        >
-          <div class="d-flex flex-column p-2">
-            <h1>700K</h1>
-            <div class="d-flex align-items-start">
-              <img src="./Asset/logos/Youtube.png" alt="" />
-              <p class="ps-2">Youtube Subscription</p>
-            </div>
-          </div>
-          <div class="d-flex flex-column p-2">
-            <h1>2.4M</h1>
-            <div class="d-flex align-items-start">
-              <img src="./Asset/logos/Instagram.png" alt="" />
-              <p class="ps-2">Instagram Followers</p>
-            </div>
-          </div>
-          <div class="d-flex flex-column p-2">
-            <h1>1.5M</h1>
-            <div class="d-flex align-items-start">
-              <img src="./Asset/logos/Dribbble.png" alt="" />
-              <p class="ps-2">Playstore Download</p>
-            </div>
-          </div>
-          <div class="d-flex flex-column p-2">
-            <h1>100K</h1>
-            <div class="d-flex align-items-start">
-              <img src="./Asset/logos/Dribbble copy.png" alt="" />
-              <p class="ps-2">Facebook Followers</p>
-            </div>
-          </div>
-        </div>
-      </section> -->
 
       <section>
         <div class="text-center my-5">
@@ -702,6 +642,7 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+    <script src="./index.js"></script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
